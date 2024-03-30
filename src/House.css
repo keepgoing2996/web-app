@@ -1,0 +1,37 @@
+.house {
+    align-items: center;
+    
+    margin: 0 1rem;
+}
+
+.house__title {
+    text-align: center;
+}
+
+.house__list {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+
+    list-style: none;
+}
+
+.house__item {
+    grid-column: span 12;
+
+    text-align: center;
+
+}
+.house__pic {
+    width: 200px;
+    height: 200px;
+}
+
+@media screen and (min-width: 44rem) {
+    .house__pic {
+        width: 300px;
+        height: 300px;
+    }
+    .house__item {
+        grid-column: span 6;
+    }
+}

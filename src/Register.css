@@ -1,0 +1,65 @@
+.register__open {
+    border: none;
+    margin: none;
+
+    font-size: 1.1rem;
+
+    color: var(--text-color);
+    background-color: inherit; 
+}
+
+.register__open:hover {
+    background-color: dodgerblue;
+    color: var(--text-color);
+}
+
+.register__item {
+    display: flex;
+    flex-direction: column;
+
+    margin: 1rem;
+}
+
+.register-same {
+    display: flex;
+    flex-direction: row;
+}
+
+.register-name__error, .register-email__error1, 
+.register-email__error2, .register-confirm__error,
+.register-address__error{
+
+    color: rgb(193, 16, 16);
+    font-style:italic;
+
+    font-size: 1.2rem;
+}
+
+.register-billing__input:read-only {
+    background-color: gray;
+}
+
+.register__buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.register__button {
+    padding: 0.5rem;
+    border-radius: 1rem;
+
+    font-size: 1.2rem;
+}
+
+.register__confirm {
+    background-color: lime;
+}
+
+.register__close {
+    background-color: lightcoral;
+
+}
+
+
+

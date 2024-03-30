@@ -1,0 +1,48 @@
+#root_living {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+
+    background-color: var(--main-bg-color);
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-between; */
+
+    grid-column: span 12;
+
+    background-color: var(--card-bg-color);
+
+    border: 1px solid black;
+    border-radius: 2rem;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+
+.card__pic {
+    aspect-ratio: 1/1;
+    width: 200px;
+    height: 250px;;
+}
+.card__link {
+    border: none;
+    padding: none;
+    margin: none;
+
+    background-color: inherit;
+    /* color: blue; */
+
+    font-size: inherit;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 44rem) {
+    .card {
+        grid-column: span 4;
+    }
+}

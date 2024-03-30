@@ -1,0 +1,16 @@
+.accordion__title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    width: 100%;
+
+    text-align: left;
+
+    background-color: var(--card-bg-color);
+    color: var(--text-color);
+}
+
+.accordion__item .accordion__content {
+    display: block;
+}

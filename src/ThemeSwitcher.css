@@ -1,0 +1,23 @@
+.theme-swicher__toggeler{
+    display: flex;
+    border-radius: 1rem;
+
+    background-color: lightgray;
+
+    font: inherit;
+}
+
+.theme-swicher__switch {
+    display: inline-block;
+
+    width: 2ch;
+    height: 2ch;
+    border-radius: 100%;
+
+    background-color: white;
+    
+}
+
+.app.dark .theme-swicher__switch { 
+    order: 2;
+}

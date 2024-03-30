@@ -1,0 +1,28 @@
+
+.app {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+
+  height: 100%;
+  
+  --main-bg-color: papayawhip;
+  --menu-bg-color: skyblue;
+  --card-bg-color: #eeeeee;
+  --text-color: black;
+
+  background-color: var(--main-bg-color);
+  color: var(--text-color);
+
+}
+
+.app.dark {
+  --main-bg-color: black;
+  --menu-bg-color: #2D033B;
+  --card-bg-color: #2a293e;
+  --text-color: white;
+}
+
+
+
+
+
